@@ -24,9 +24,9 @@ app.use(cors(
   }
 ));
 
-app.get("/",(req,res)=>{
+app.get("/", (req, res) => {
   res.json("hello");
-)}
+});
 
 
 
